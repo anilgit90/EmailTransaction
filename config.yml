@@ -1,0 +1,27 @@
+server:
+  applicationConnectors:
+  - type: http 
+    port: 9000
+  adminConnectors:
+  - type: http
+    port: 9001
+logging:
+  level: INFO
+  appenders:
+    - type: console
+smtp_host: <future-release>
+smtp_socketFactoryport: <future-release>
+smtp_socketFactoryclass: <future-release>
+smtp_authentication: <future-release>
+smtp_port: <future-release>
+start_tls: <future-release>
+from_email: <mailgun-from-email-address>
+username: <mailgun-username>
+password: <mailgun-password>
+attachment_path: <attachment-path-local>
+send_type: <mailgun-mail-sent-type>
+api_url: https://api.mailgun.net/v3
+api_key: <mailgun-api-key>
+api_val_key: <mailgun-validation-public-key>
+api_domain: <mailgun-domain>
+api_check_url: https://api.uptimerobot.com/getMonitors?apiKey=<your-monitor-api-key>&format=json
