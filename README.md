@@ -1,13 +1,5 @@
 # EmailTransaction
 
-[![Build Status](https://travis-ci.org/anilvrs90/EmailTransaction.svg?branch=master)](https://travis-ci.org/anilvrs90/EmailTransaction)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ae86e1c55e8b4104a7df9f9ebb31348b)](https://www.codacy.com/app/anilvrs_90/EmailTransaction?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=anilvrs90/EmailTransaction&amp;utm_campaign=Badge_Grade)
-[![Dependency Status](https://www.versioneye.com/user/projects/588a2958be496c0047e1ade5/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/588a2958be496c0047e1ade5)
-<a href="https://scan.coverity.com/projects/anilvrs90-emailtransaction">
-  <img alt="Coverity Scan Build Status"
-       src="https://scan.coverity.com/projects/11596/badge.svg"/>
-</a>
-
 Used to send Transaction Emails using Mailgun API.
 To get started on using webservice fill in the proper values in the config.yml file.
 
